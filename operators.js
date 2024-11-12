@@ -151,3 +151,11 @@ let newSayi = ++number1; // önce artır sonra ata
 console.log(newSayi); //8
 console.log(--newSayi); // 7
 console.log(newSayi--); // 7
+
+let nums1 = 14;
+let nums2 = 17;
+//! += Ekle ve Sonucu Ata
+//? yukarıdaki gibi uzun uzun yazmak yerine += operatörünü kullanarak işlemimi kısaltmış oldum. Aynı şekilde diğer operatörler içinde geçerli.
+
+nums2 += nums1;
+console.log(nums2); // 31
