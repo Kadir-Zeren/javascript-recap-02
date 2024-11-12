@@ -35,10 +35,21 @@ console.log(fullName);
 const fullName2 = `${firstName} ${lastName}`;
 console.log(fullName2);
 
-
 const num3 = "6";
 const num4 = "7";
 console.log(num3 + num4); // 67
 console.log(num3 + 7); // 67. js otomatik tip dönüşümü yaparak buradaki ifadeyi de concatenat etti.
 console.log(7 + num3); // + operatorunde string değişken üstün gelir ve dönmüşümüstringe yapar. 76 çıktısını verdi.
-console.log(typeof (7+ num3)); // string
+console.log(typeof (7 + num3)); // string
+
+//! - operatörü
+const x = 55;
+const y = 44;
+
+console.log(x - y); // 11
+
+const myNum = "1";
+console. log(x - myNum); // 54. - operatöründe string değişkeni numbera çevirir.
+const yourNum = "one";
+console. log(x - yourNum) ; // NaN (Not a Number)
+//? String ifadeyi number a dönüştürmeye çalışıyor ama bu mümkün olmadığı için dönüştüremiyor ve bu nedenle işlemin sonucunu Na döndürüyor.matematiksel olarak belirsiz veya tanımsız bir değeri temsil eder
