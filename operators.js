@@ -252,3 +252,10 @@ console.log(!true); // false
 console.log(!false); // true
 console.log(!0); // true
 console.log(!5); // false
+
+//! İşlem Önceliği sıralaması
+// 1. ! (not)
+// 2. && (and)
+// 3. || (or)
+const karşilaştırma = ("merhaba" && "dünya") || false || (28 && 67 && !0);
+console.log(karşilaştırma);
