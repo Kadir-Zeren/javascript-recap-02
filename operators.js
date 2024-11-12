@@ -122,3 +122,15 @@ console.log(randomNum);
 const randomNum2 = Math.random() * 10;
 console.log(randomNum2);
 console.log(Math.round(Math.random() * 10));
+
+//\ ** (üs alma) operatörü
+const üs1 = 2;
+const üs2 = 3;
+console.log(üs1 ** üs2);
+
+// Dairenin alanı, pi çarpı yarıçapın karesidir ().
+
+const pi = 3.14;
+const yariCap = 9;
+const alan = pi * yariCap ** 2;
+console.log(alan);
