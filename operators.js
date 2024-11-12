@@ -159,3 +159,51 @@ let nums2 = 17;
 
 nums2 += nums1;
 console.log(nums2); // 31
+
+const num16 = 27;
+
+console.log(num16 == 27); //true
+console.log(num16 == "27"); // true
+
+//? == (eşitlik operatörü), iki değeri karşılaştırırken tip dönüşümü yapar. Eğer karşılaştırılan değerler farklı tiplerde ise, JavaScript otomatik olarak bu değerleri aynı tipe dönüştürerek karşılaştırma yapar. Bu işlem sırasında, değerler eşitlenebilir bir forma getirilir ve ardından karşılaştırılır.
+
+console.log(num16 === 27); // true
+console.log(num16 === "27"); // false
+//? === operatörü otomatik tip dönüşümü yapmadığından dolayı, farklı tiplerdeki değerleri eşit olarak kabul etmez.tip ve değer aynı mı diye sorgular.
+
+// const user1 = prompt("Lütfen bir sayı griniz: ");
+// const user2 = prompt("Lütfen bir sayı griniz: ");
+// console.log(user1);
+// console.log(user2);
+
+// const isSame = user1 == user2;
+// console.log(isSame);
+
+console.log(true == 1); //true
+console.log(null == undefined); // true
+// true boolean değeri 1 sayısı ile eşit kabul edilir, null ve undefined ise birbirine eşit kabul edilir.
+console.log(true === 1); // false
+console.log(null === undefined); // false
+
+console.log(15 != "15"); // false. çünkü değerleri eşit
+console.log(15 !== "15"); // true. çünkü typeları eşit değil
+
+//? >, < (Büyük mü?, Küçük mü?)
+console.log(15 > 5); // true
+console.log(15 < 5); // false
+console.log("15" > 5); // true
+
+console.log("a" > "b"); // false.String ifadelerde ASCII'ye gore kiyaslama yapilir.
+console.log("a".charCodeAt()); // 97
+console.log("b".charCodeAt()); // 98
+// . . charCodeAt() metodu string karakterin ASCII karşılığını verir.
+// console. log("a" > "A");// true
+
+//? ›=, <= (Büyük veya eşit mi?, Küçük veya eşit mi?)
+
+console.log(15 >= 15); //true
+console.log(15 <= 15); // true
+console.log(15 >= 16); // false
+// console.log(15 >== "15");// error verir. Çünkü bu şekilde karşılaştırma operatörü bulunmuyor.
+console.log(15 >= "15"); // true
+console.log("14" <= "15"); // true
