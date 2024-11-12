@@ -34,3 +34,11 @@ console.log(fullName);
 
 const fullName2 = `${firstName} ${lastName}`;
 console.log(fullName2);
+
+
+const num3 = "6";
+const num4 = "7";
+console.log(num3 + num4); // 67
+console.log(num3 + 7); // 67. js otomatik tip dönüşümü yaparak buradaki ifadeyi de concatenat etti.
+console.log(7 + num3); // + operatorunde string değişken üstün gelir ve dönmüşümüstringe yapar. 76 çıktısını verdi.
+console.log(typeof (7+ num3)); // string
